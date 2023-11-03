@@ -1,2 +1,27 @@
-# alx_capstone_project
-This  capstone project is also like my first portfolio project to showcase my skills 
+# alx_capstone_project: 
+# Quiz Game
+
+ 
+ ## Project overview;
+ This  capstone project is also like my first portfolio project to showcase my skills 
+
+
+
+
+# Features & Functionalies;
+
+ - click satrt button.
+ - read quiz guide.
+ - click continue.
+ - read the question.
+ - select the asnwer.
+ - final result.
+
+# Tecchnologies Used in this project;
+
+* HTML, CSS AND JAVASCRIPT.
+
+# Contact Me;
+
+* Phone: and WhatsApp: +2348033556739
+Email: yalkaurawing@yahoo.com
