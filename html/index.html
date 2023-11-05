@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website HTML CSS JS | ALX SE.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Alx.</a>
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Service</a>
+                <a href="#">Contact</a>
+            </nav>
+        
+        </header>
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Alx Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Kaura Quiz Website</span>
+                        <span class="header-score"></span>
+                    </div>
+
+                    <div class="que_text">
+                       <!-- Here I've inserted question from JavaScript -->
+                    </div>
+
+                    <div class="option-list">
+                       <!-- Here I've inserted options from JavaScript -->
+                    </div>
+                    <div class="quiz-footer">
+                        <span class="question-total">1 0f 5 questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+                <div class="result-box">
+                    <h2>Quiz Result!</h2>
+                    <div class="complete_text">You've completed the Quiz!</div>
+                      <div class="score_text">
+                       <!-- Here I've inserted Score Result from JavaScript -->
+                    
+                    </div>
+                    
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+                    
+                    
+                </div>
+            </section>
+        <section class="home">
+            <div class="home-content">
+                <h1>Quiz Website</h1>
+                <p>Are you ready to take on this web development quiz challenge? Click on the ‘Start’ button below 
+                    and show us how much you know about tech. Good luck and have fun! </p>
+                <button class="start-btn">Start Quiz!</button>
+
+            </div>
+        </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+        <span class="info">1. Wellcome! Before you click continue read a brief guide.</span>
+        <span class="info">2. Once you select your answer, it can't be undone.</span>
+        <span class="info">3. You can't select any option once time goes off.</span>
+        <span class="info">4. You can't exit from the Quiz while you're playing.</span>
+        <span class="info">5. You'll get points on the basis of your correct answers.</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a class="info-btn continue-btn">Continue</a>
+
+        </div>
+    </div>
+    
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
