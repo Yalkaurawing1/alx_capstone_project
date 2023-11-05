@@ -48,3 +48,77 @@ body{
 .navbar a.active{
     color: #ac4009;
 }
+/* ----------------------------------Main------------------------------------------ */
+.main{
+    min-height: 100vh;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    pointer-events: auto;
+    transition: .3s ease;
+}
+/* act 1 */
+
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 200%;
+}
+
+/* ---------------------------Home--------------------------- */
+.home{
+    position: relative;
+    left: -50%;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content{
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-content h1{
+    font-size: 78px;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    color: rgb(236, 201, 3);
+}
+
+.home-content p{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    margin-bottom: 30px;
+    color: #da6023;
+}
+
+.home-content .start-btn {
+    width: 190px;
+    height: 55px;
+    background: #da6023;
+    bottom: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #ac4009;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.home-content .start-btn:hover{
+    background: rgb(236, 201, 3);
+    box-shadow: none;
+}
+
+
